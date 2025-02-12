@@ -55,13 +55,15 @@ module tb_top4x4;
         clk = 1;
         control = 1;  // Load weights first
         data_arr = 0;
-        wt_arr = {16{8'b1}}; // Loading weights (example row-wise) //32'h01020304
+        wt_arr = {16{8'b1}}; // Loading weights (example row-wise) //32'h01020304 
+        // The weights are initialized in such a way that the weight matrix is all 1s.
 
+        
         // **Wait for Weights to Load**
         #10;
         control = 0;  // Begin computation phase
 
-        // **Provide Data Inputs Over Time**
+        // **Provide Data Inputs Over Time**    // The first row indidicates the first column of the input matrix
         #10 data_arr = {8'h01, 8'h02, 8'h03, 8'h04};  // First row
    //     #10 data_arr = {8'h05, 8'h06, 8'h07, 8'h08};  // Second row
    //     #10 data_arr = {8'h09, 8'h0A, 8'h0B, 8'h0C};  // Third row
