@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../fp_ws_systolic.srcs/sources_1/new/fp_add.v" \
+"../../../../fp_ws_systolic.srcs/sources_1/new/fp_mul.v" \
+"../../../../fp_ws_systolic.srcs/sources_1/new/pe_fp4x4.v" \
+"../../../../fp_ws_systolic.srcs/sources_1/new/top_fp4x4.v" \
+"../../../../fp_ws_systolic.srcs/sim_1/new/tb_fp4x4.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
