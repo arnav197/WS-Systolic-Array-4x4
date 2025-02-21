@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../gp4x4.srcs/sources_1/new/fp_add_10.v" \
+"../../../../gp4x4.srcs/sources_1/new/fp_add_16.v" \
+"../../../../gp4x4.srcs/sources_1/new/fp_mul_10.v" \
+"../../../../gp4x4.srcs/sources_1/new/fp_mul_16.v" \
+"../../../../gp4x4.srcs/sources_1/new/pe_10.v" \
+"../../../../gp4x4.srcs/sources_1/new/pe_16.v" \
+"../../../../gp4x4.srcs/sources_1/new/top.v" \
+"../../../../gp4x4.srcs/sim_1/new/tb_gp4x4.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

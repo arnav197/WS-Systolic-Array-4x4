@@ -1,0 +1,13 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/arnav/gp4x4/gp4x4.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/arnav/gp4x4/gp4x4.srcs/sim_1/new/tb_gp4x4.v,1740051446,verilog,,,,tb_gp4x4,,,,,,,,
+C:/Users/arnav/gp4x4/gp4x4.srcs/sources_1/new/fp_add_10.v,1740045077,verilog,,C:/Users/arnav/gp4x4/gp4x4.srcs/sources_1/new/fp_add_16.v,,fp_add_10,,,,,,,,
+C:/Users/arnav/gp4x4/gp4x4.srcs/sources_1/new/fp_add_16.v,1740044440,verilog,,C:/Users/arnav/gp4x4/gp4x4.srcs/sources_1/new/fp_mul_10.v,,fp_add_16,,,,,,,,
+C:/Users/arnav/gp4x4/gp4x4.srcs/sources_1/new/fp_mul_10.v,1739785418,verilog,,C:/Users/arnav/gp4x4/gp4x4.srcs/sources_1/new/fp_mul_16.v,,fp_mul_10,,,,,,,,
+C:/Users/arnav/gp4x4/gp4x4.srcs/sources_1/new/fp_mul_16.v,1739785432,verilog,,C:/Users/arnav/gp4x4/gp4x4.srcs/sources_1/new/pe_10.v,,fp_mul_16,,,,,,,,
+C:/Users/arnav/gp4x4/gp4x4.srcs/sources_1/new/pe_10.v,1740047414,verilog,,C:/Users/arnav/gp4x4/gp4x4.srcs/sources_1/new/pe_16.v,,pe_10,,,,,,,,
+C:/Users/arnav/gp4x4/gp4x4.srcs/sources_1/new/pe_16.v,1740047831,verilog,,C:/Users/arnav/gp4x4/gp4x4.srcs/sources_1/new/top.v,,pe_16,,,,,,,,
+C:/Users/arnav/gp4x4/gp4x4.srcs/sources_1/new/top.v,1740051674,verilog,,C:/Users/arnav/gp4x4/gp4x4.srcs/sim_1/new/tb_gp4x4.v,,top,,,,,,,,
