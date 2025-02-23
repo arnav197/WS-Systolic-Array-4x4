@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ws_systolic_array.srcs/sources_1/new/PE.v" \
+"../../../../ws_systolic_array.srcs/sources_1/new/systolic_array.v" \
+"../../../../ws_systolic_array.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

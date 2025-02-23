@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/arnav/ws_systolic_array/ws_systolic_array.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/arnav/ws_systolic_array/ws_systolic_array.srcs/sim_1/new/tb.v,1740323399,verilog,,,,systolic_array_tb,,,,,,,,
+C:/Users/arnav/ws_systolic_array/ws_systolic_array.srcs/sources_1/new/PE.v,1740324415,verilog,,C:/Users/arnav/ws_systolic_array/ws_systolic_array.srcs/sources_1/new/systolic_array.v,,PE,,,,,,,,
+C:/Users/arnav/ws_systolic_array/ws_systolic_array.srcs/sources_1/new/systolic_array.v,1740329771,verilog,,C:/Users/arnav/ws_systolic_array/ws_systolic_array.srcs/sim_1/new/tb.v,,systolic_array,,,,,,,,
